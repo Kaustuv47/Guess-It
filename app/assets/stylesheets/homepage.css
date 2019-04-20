@@ -1,0 +1,35 @@
+h1{
+  font-size: 50;
+  font-family: sans-serif;
+  font-style: bold;
+  color: white;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: black;
+
+}
+h2{
+  text-align: center;
+  transform-style: preserve-3d;
+  font-size: 30;
+  color: white;
+}
+button{
+  color: white;
+  font-size:25px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: transparent;
+}
+button:hover{
+  color: black;
+  background-color: white;
+}
+body{
+  background-size: cover;
+  background-image: url(HomePageBack.jpg);
+  background-repeat: no-repeat;
+  HomePageBack{
+    object-fit: fill;
+  }
+}
